@@ -1,0 +1,31 @@
+# Fix smtp authentication error gmail
+If you on SMTP Authentication and then you have to create a generating-app-passwords for eail password.
+
+# Gmail or Google Workspace SMTP Settings
+SMTP Host: smtp.gmail.com
+Type of Encryption: TLS
+SMTP Port: 587 (or 465 using SSL encryption)
+SMTP Authentication: On
+SMTP Username: Your Gmail account email address (e.g., yourname@gmail.com)
+SMTP Password: You will need to generate an app password in Google
+
+# Generating an App Password
+In order to use SMTP on your WordPress site, you’ll likely need to create an app password within your email account. Below, we’ll show you how to do this for Gmail, Yahoo, AOL, Outlook (including Hotmail and Live), and Zoho.
+Note: Before generating an app password in Gmail, you’ll need to turn on Google’s 2-Step Verification.
+To get started, log in to your Gmail or Google Workspace account.
+From your account dashboard, go to App passwords in your security settings and click the Select app dropdown.
+Next, select the Other (Custom name) option from the dropdown menu.
+Then, enter Easy WP SMTP in the field provided and click the blue GENERATE button.
+This will generate an app password that you can use for your Easy WP SMTP setup.
+Copy the app password, go back to your WordPress dashboard, paste the password into the SMTP Password field, and save the settings.
+
+# Yahoo Mail SMTP Settings
+SMTP Host: smtp.mail.yahoo.com
+Type of Encryption: SSL
+SMTP Port: 465
+SMTP Authentication: On
+SMTP Username: Your Yahoo Mail account email (e.g., yourname@yahoo.com)
+SMTP Password: You will need to generate an app password for your account
+
+# Please follow this Blog: https://easywpsmtp.com/docs/setting-up-the-other-smtp-mailer/#generating-app-passwords
+
