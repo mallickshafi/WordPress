@@ -10,6 +10,8 @@ SMTP Username: Your Gmail account email address (e.g., yourname@gmail.com)
 SMTP Password: You will need to generate an app password in Google
 
 # Generating an App Password
+https://myaccount.google.com/apppasswords
+
 In order to use SMTP on your WordPress site, you’ll likely need to create an app password within your email account. Below, we’ll show you how to do this for Gmail, Yahoo, AOL, Outlook (including Hotmail and Live), and Zoho.
 Note: Before generating an app password in Gmail, you’ll need to turn on Google’s 2-Step Verification.
 To get started, log in to your Gmail or Google Workspace account.
